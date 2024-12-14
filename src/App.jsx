@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import Works from './Pages/Works';
 import Milestones from './Pages/Milestones';
-import Bio from './Pages/Bio';
+// import Bio from './Pages/Bio';
 import Upcoming from './Pages/Upcoming';
 import SlideTabs from './components/SlideTabs';
 import BouncyCardsFeatures from './components/BouncyCardsFeatures';
@@ -58,16 +58,16 @@ function App() {
             </div>
           }
         />
-        <Route
+{/*         <Route
           path="/bio"
           element={
             <div>
               <Bio />
-              {/* <ParticleRing /> */}
-              <SlideTabs />  {/* Always keep it below all adjacent components (otherwise it will be get overlapped by others) */}
+              <ParticleRing />
+              <SlideTabs /> 
             </div>
           }
-        />
+        /> */}
         <Route
           path="/upcoming"
           element={
