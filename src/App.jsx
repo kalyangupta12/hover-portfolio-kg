@@ -72,7 +72,7 @@ function App() {
           path="/upcoming"
           element={
             <div>
-              <Upcoming />
+              <upcoming />
               <SlideTabs />  {/* Always keep it below all adjacent components (otherwise it will be get overlapped by others) */}
             </div>
           }
