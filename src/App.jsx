@@ -4,7 +4,7 @@ import Home from './Pages/Home';
 import Works from './Pages/Works';
 import Milestones from './Pages/Milestones';
 // import Bio from './Pages/Bio';
-import Upcoming from './Pages/Upcoming';
+import upcoming from './Pages/Upcoming';
 import SlideTabs from './components/SlideTabs';
 import BouncyCardsFeatures from './components/BouncyCardsFeatures';
 // import CutoutTextLoader from './components/CutoutTextLoader'
